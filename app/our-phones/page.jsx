@@ -20,7 +20,6 @@ const getData = async () => {
 
 const OurPhones = async () => {
   const phones = await getData();
-  console.log(phones);
   return (
     <div>
       <PhoneCategories phones={phones} />
